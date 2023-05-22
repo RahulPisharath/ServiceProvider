@@ -20,7 +20,7 @@ textarea {
     display: block;
 }
 
-.btn_themed {
+.btn_theme_01 {
     display: inline-block;
     outline: none;
     border: 2px solid transparent;
@@ -58,4 +58,20 @@ textarea {
     position: absolute;
     top: 0;
     right: 0px;
+}
+
+.btn_themed{
+    background-color:$Tags;
+    border-color:$Tags;
+    color:#FFF;
+    &:hover{
+        background-color:$Tags;
+        border-color:$Tags;
+        filter:brightness(80%);
+    }
+}
+
+.text_link {
+    color: #555a64;
+    font-size: 14px;
 }
